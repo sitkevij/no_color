@@ -9,3 +9,4 @@ edition = "2018"
 keywords = ["cli", "terminal", "no_color", "color"]
 readme = "README.md"
 repository = "https://github.com/sitkevij/no_color"
+include = ["src/**/*","examples/**/*","Cargo.toml","Cargo.lock", "README.md"]
