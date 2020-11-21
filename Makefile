@@ -14,7 +14,10 @@ BINARY = no_color
 all: fmt test clean
 
 fmt:
-	cargo fmt --verbose
+	cargo fmt --all --verbose
+
+fmt-check:
+	cargo fmt --all -- --check
 
 debug:
 	export RUSTFLAGS=""
