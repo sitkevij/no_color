@@ -1,0 +1,11 @@
+[package]
+name = "no_color"
+description = "Detect NO_COLOR environment variable."
+version = "0.1.0"
+authors = ["sitkevij"]
+license = "MIT"
+categories = ["command-line-interface"]
+edition = "2018"
+keywords = ["cli", "terminal", "no_color", "color"]
+readme = "README.md"
+repository = "https://github.com/sitkevij/no_color"
