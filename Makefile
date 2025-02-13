@@ -78,6 +78,9 @@ clippy:
 docker:
 	docker build -t sitkevij/stretch-slim:$(BINARY)-0.1.0 .
 
+docs:
+	rustdoc src/lib.rs --document-private-items -o target/doc -L dependency=target/debug/deps
+
 clean: ## Remove all artifacts
 	rm -rf $(DEBUG_DIR)
 	rm -rf $(RELEASE_DIR)

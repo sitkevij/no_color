@@ -40,6 +40,12 @@ To use, add the following to your `Cargo.toml` dependencies section:
 no_color = "0.2"
 ```
 
+or use cargo add:
+
+```sh
+cargo add no_color
+```
+
 ### Implementing Code
 
 Suggested updates to your rust code as below:
