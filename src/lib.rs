@@ -28,8 +28,8 @@
 //!
 //! or use cargo add:
 //!
-//! ```
-//! cargo add no_color
+//! ```sh
+//! $ cargo add no_color
 //! ```
 use std::env;
 

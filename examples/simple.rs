@@ -18,7 +18,6 @@ use no_color::*;
 /// ## The following code is executed in the simple example
 ///
 /// ```rust
-/// fn main() {
 ///   println!(
 ///     "Environment variable NO_COLOR {0} found. Now do something.",
 ///     {
@@ -29,7 +28,6 @@ use no_color::*;
 ///         }
 ///     }
 ///   );
-/// }
 /// ```
 fn main() {
     println!(
