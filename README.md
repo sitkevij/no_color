@@ -1,6 +1,13 @@
 # no_color
 
-**no_color** is a rust library for detecting if the NO_COLOR environment variable is set.
+**no_color** is a zero dependency rust library for NO_COLOR environment variable detection.
+
+[![Crates.io](https://img.shields.io/crates/v/no_color?style=flat-square)](https://crates.io/crates/no_color)
+[![Crates.io](https://img.shields.io/crates/d/no_color?style=flat-square)](https://crates.io/crates/no_color)
+[![GitHub repo size](https://img.shields.io/github/repo-size/sitkevij/no_color)](https://github.com/sitkevij/no_color)
+[![main](https://github.com/sitkevij/no_color/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sitkevij/no_color/actions/workflows/ci.yml?branch=main)
+[![docs.rs](https://img.shields.io/docsrs/no_color)](https://docs.rs/no_color/0.2.0/no_color/)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/sitkevij/no_color/blob/main/LICENSE)
 
 ## About
 
