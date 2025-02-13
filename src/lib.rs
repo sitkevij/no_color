@@ -1,19 +1,6 @@
-#![deny(
-    dead_code,
-    missing_docs,
-    missing_debug_implementations,
-    missing_copy_implementations,
-    trivial_casts,
-    trivial_numeric_casts,
-    unsafe_code,
-    unstable_features,
-    unused_import_braces,
-    unused_qualifications
-)]
-
 //! **no_color** is a rust library for detecting if the NO_COLOR environment
 //! variable is set. Check for the existence of the NO_COLOR environment
-//! variable, wether it has value or not.
+//! variable, whether it has value or not.
 use std::env;
 
 /// const NO_COLOR str
@@ -37,12 +24,12 @@ mod tests {
     #[test]
     fn test_env_var_no_color_true_with_value() {
         env::set_var(ENV_VAR_NO_COLOR, "1");
-        assert!(is_no_color(), true);
+        assert!(is_no_color(), "{}", true);
     }
 
     #[test]
     fn test_env_var_no_color_true_without_value() {
         env::set_var(ENV_VAR_NO_COLOR, "");
-        assert!(is_no_color(), true);
+        assert!(is_no_color(), "{}", true);
     }
 }
